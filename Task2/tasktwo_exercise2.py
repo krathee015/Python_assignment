@@ -4,7 +4,7 @@ result = 0
 num1 = eval(input("Enter first number: "))
 num2 = eval(input("Enter second number: "))
 
-user_enter = eval(input("Enter 1 for Addition, Enter 2 for Subtraction, Enter 3 for Division, Enter 4 for Multiplication, Enter 5 for Average: "))
+user_enter = eval(input("Enter 1 for Addition, 2 for Subtraction, 3 for Division, 4 for Multiplication, 5 for Average: "))
 
 if (user_enter == 1):
     result = num1 + num2
