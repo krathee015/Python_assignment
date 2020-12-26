@@ -87,7 +87,6 @@ print("\n*****")
 print("Exercise 10")
 print("a sequence of comma-separated numbers from console and generates a list and a tuple which contains every number in the form of string.")
 
-seq1 = eval(input("Enter the sequence: "))
-# list1 =list[seq1]
-# print ("Sequence in list: ",list1)
-print("Sequence in tuple: ", tuple(seq1))
+seq1 = (input("Enter the sequence of comma-seperate numbers: "))
+print ("Sequence in list: ",seq1.split(","))
+print("Sequence in tuple: ", tuple(seq1.split(",")))
