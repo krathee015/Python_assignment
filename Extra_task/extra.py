@@ -123,11 +123,15 @@ print("\n******")
 print("Exercise10")
 print(" Generate and print another tuple whose values are even numbers in the given tuple")
 tup = (1,2,3,4,5,6,7,8,9,10)
-for new_tup in range(len(tup)):
-    if (tup[new_tup] %2 == 0):
-        tup1=tup1.append(tup[new_tup])
+new_tup = ()
+new_list = []
+t_to_l = list(tup)
+for i in range(len(t_to_l)):
+    if (t_to_l[i] %2 == 0):
+        new_list.append(t_to_l[i])
+        new_tup = tuple(new_list)
 
-print("Tuple after adding even numbers: ",tup1)
+print("Tuple after adding even numbers: ",new_tup)
 
 
 
