@@ -37,14 +37,14 @@ print ("Smallest number in the given list is: ", min(list))
 
 print("\n*****")
 print("Exercise 5")
-print ("Create a new list which contains the specified numbers after removing the even numbers from apredefined list.")
+print ("Create a new list which contains the specified numbers after removing the even numbers from a predefined list.")
 
 list1 = [4,6,3,8,9,5,13,45,56,79]
-
-for new_list in list1:
-    if (new_list %2 == 0):
-        list1.remove(new_list)
-print ("List after removing even numbers is: ",list1)
+new_list = [ ]
+for i in range(len(list1)):
+    if (list1[i]%2 != 0):
+        new_list.append(list1[i])
+print ("List after removing even numbers is: ",new_list)
 
 print("\n*****")
 print("Exercise 6")
