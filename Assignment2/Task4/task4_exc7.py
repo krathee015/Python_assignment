@@ -1,4 +1,4 @@
-print("two strings as input and print the string with the maximum length in the console")
+# two strings as input and print the string with the maximum length in the console
 
 def max_length(a,b):
     len1 = len(a)

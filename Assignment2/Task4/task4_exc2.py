@@ -1,5 +1,5 @@
 print("Exercise 2")
-print("Write a function that accepts a string and prints the number of uppercase letters and lowercase letters.")
+# Write a function that accepts a string and prints the number of uppercase letters and lowercase letters.
 
 input_str =input("Enter string containing lower and upper case characters: ")
 

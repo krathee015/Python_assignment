@@ -1,4 +1,4 @@
-print("Exercise 1: Write a program to reverse a string")
+# Exercise 1: Write a program to reverse a string
 def str_reverse(str):
     return str[::-1] 
 

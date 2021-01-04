@@ -1,5 +1,5 @@
 print("Exercise 3")
-print("Create a function that takes a list and returns a new list with unique elements of the first list.")
+# Create a function that takes a list and returns a new list with unique elements of the first list.
 
 def unique_list(list1):
     x = [ ]
