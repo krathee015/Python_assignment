@@ -12,4 +12,4 @@ def max_length(a,b):
 
 str1 = input("enter first string: ")
 str2 =input("enter second string: ")
-print(max_length(str1,str2))
+print("Max lenght: ",max_length(str1,str2))
