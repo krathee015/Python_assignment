@@ -15,7 +15,7 @@ print("\n******")
 print("Exercise2")
 print("list of thousand numbers using range and xrange and see the difference between each other.")
 
-range_list = range(1,1000)
+range_list = range(1,1001)
 # xrange_list = xrange(1,1000)
 print("thousand numbers using range: ",range_list)
 # print("thousand numbers using range: ",xrange_list)
@@ -37,14 +37,13 @@ for i in range(len(list1)):
 print("\n******")
 print("Exercise5")
 print("reverse a string and print only the vowel alphabet if it exists in the string with their index.")
-str = input("Enter a string: ")
-arr = ["a","e","i","o","u"]
-str_reverse = str[::-1]
+str1 = input("Enter a string: ")
+list_of_vowels = ["a","e","i","o","u"]
+str_reverse = str1[::-1]
 print("String after reverse: ",str_reverse)
-for i in range(len(str_reverse)):
-    if str_reverse[i] in arr:
-        index = str.index(str_reverse[i])
-        print(str_reverse[i],"Vowel has index: ",index)
+for index in range(len(str_reverse)):
+    if str_reverse[index].lower() in list_of_vowels:
+        print(str_reverse[index],"Vowel has index: ",index)
 
 print("\n******")
 print("Exercise6")
@@ -52,7 +51,7 @@ print ("iterate through the string “hello my name is abcde” and print the st
 
 str = "Hello my name is Abcde"
 print("The string is: ",str)
-words = list(str.split(" "))
+words = str.split(" ")
 print("Even length words are: ")
 for i in words:
     if(len(i) %2 == 0):
@@ -64,13 +63,11 @@ print("print the pair of numbers whose sum is equal to the result number that is
 
 x=[1,2,3,4,5,6,7,8,9,-1]
 n = len(x)
-count = 0
 sum = 8
 for i in range(0, n):
     for j in range(i+1, n):
         if x[i] + x[j] == sum:
-            count+= 1
-print("Counts of pair of number: ",count)
+            print(x[i],x[j])
 
 print("\n******")
 print("Exercise8")
