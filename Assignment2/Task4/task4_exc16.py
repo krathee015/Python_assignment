@@ -6,11 +6,14 @@ def foo():
         return 2
 k = foo()
 print(k)
+#due to finally return print statement overrides 1 with 2
 
-print("\n 16.b")
+print("\n16.b")
 def a():
     try:
         f(x, 4)
+    # except:
+    #     print("error occured")
     finally:
         print("after f")
         print("after f?")
