@@ -9,6 +9,7 @@ while True:
         
     
     if (num < 0):
+        print ("It's Over")
         break
 
-print ("It's Over")
+
