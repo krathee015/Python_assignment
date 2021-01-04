@@ -4,7 +4,7 @@ lucky_number = 10
 
 while counter <= 5:
     user_number = eval(input("Guess the number: "))
-    if (counter == 5):
+    if (counter == 5 and user_number != lucky_number):
         print ("Sorry but that was not very successful")
         break
     
