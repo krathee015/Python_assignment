@@ -2,4 +2,4 @@
 # comprehension
 
 upper_char = [word for word in "comPreHensioN" if word.isupper() == True]
-print("Uppercase characters in the string: ",upper_char)
+print("Uppercase characters in the string: ",upper_char) 
